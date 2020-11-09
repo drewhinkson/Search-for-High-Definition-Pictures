@@ -10,8 +10,8 @@ const RandomPicture= (props) => {
   
 
     return (
-        <div >
-    <button onClick ={clickMe}>Random Picture</button>
+        <div>
+    <button style={{borderRadius:15}}className="ui orange button" onClick ={clickMe}>Random Picture</button>
     </div>
     )
 }

@@ -21,7 +21,7 @@ class  App extends React.Component {
     onClickSubmit =  async (term) => {
         const response = await unsplash.get('/photos/random', {
             params: {
-               count:10,
+               count:15,
                query:term
             },
          })
